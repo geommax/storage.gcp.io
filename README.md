@@ -19,3 +19,5 @@ essential config &amp; proxy pass configuration with TailScale Node
 
 > $ sudo ln -s /etc/nginx/sites-available/default /etc/nginx/sites-enabled/
 
+### API Test
+> curl -u username:password http://100.75.13.11:5000
