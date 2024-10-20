@@ -14,6 +14,8 @@ essential config &amp; proxy pass configuration with TailScale Node
 > $ tailscale node 
 
 > $ grep -r "romrobots.com" /etc/nginx
+
 > $ sudo certbot --nginx
+
 > $ sudo ln -s /etc/nginx/sites-available/default /etc/nginx/sites-enabled/
 
