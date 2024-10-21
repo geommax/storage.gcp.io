@@ -11,7 +11,7 @@ essential config &amp; proxy pass configuration with TailScale Node
 
 > $ nginx -t
 
-> $ tailscale node 
+> $ tailscale node on both NAS and GCP Instance
 
 > $ grep -r "romrobots.com" /etc/nginx
 
