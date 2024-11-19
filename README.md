@@ -13,6 +13,10 @@ essential config &amp; proxy pass configuration with TailScale Node
 
 > $ tailscale node on both NAS and GCP Instance
 
+> sudo systemctl restart tailscaled
+
+> sudo systemctl status tailscaled
+
 > $ grep -r "romrobots.com" /etc/nginx
 
 > $ sudo certbot --nginx
@@ -21,3 +25,5 @@ essential config &amp; proxy pass configuration with TailScale Node
 
 ### API Test
 > curl -u username:password http://100.75.13.11:5000
+
+
