@@ -19,6 +19,8 @@ essential config &amp; proxy pass configuration with TailScale Node
 
 > $ grep -r "romrobots.com" /etc/nginx
 
+> curl -I http://storage.romdynamics.com
+
 > $ sudo certbot --nginx
 
 > $ sudo ln -s /etc/nginx/sites-available/default /etc/nginx/sites-enabled/
